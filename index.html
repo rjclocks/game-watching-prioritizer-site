@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Game Watching Prioritizer</title>
+  <style>
+    body {
+      max-width: 800px;
+      margin: 48px auto;
+      padding: 0 24px;
+      font-family: system-ui, sans-serif;
+      line-height: 1.65;
+      color: #202124;
+      background: #fafafa;
+    }
+    h1, h2 {
+      line-height: 1.25;
+    }
+    h1 {
+      color: #174b78;
+    }
+    section {
+      margin-top: 32px;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 16px;
+      border-top: 1px solid #ddd;
+      color: #555;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Game Watching Prioritizer</h1>
+    <p>
+      A private NFL fantasy viewing-priority tool, currently under
+      development for two users: the developer and one friend.
+    </p>
+
+    <section>
+      <h2>Purpose</h2>
+      <p>
+        The application identifies which NFL games contain the greatest
+        number of players tracked across a user's fantasy football teams.
+        It groups games into viewing windows and highlights up to four
+        games to prioritise in each window.
+      </p>
+    </section>
+
+    <section>
+      <h2>How it works</h2>
+      <p>
+        The planned integration uses authorised, read-only access to
+        Yahoo Fantasy Football team and weekly roster data, including
+        player identifiers, names, positions and NFL-team affiliations.
+      </p>
+      <p>
+        Both starters and bench players are included. Kickers and team
+        defences are excluded. Players appearing on multiple fantasy
+        teams are counted once when ranking games.
+      </p>
+      <p>
+        Players are matched to NFL fixtures to produce a private
+        viewing-priority report.
+      </p>
+    </section>
+
+    <section>
+      <h2>Access and data use</h2>
+      <p>
+        The application is intended to run locally on a user's computer.
+        It is not available for public registration or download.
+        Each user will authorise access to their own Yahoo account.
+      </p>
+      <p>
+        The application will not modify fantasy lineups, make
+        transactions, or publish users' rosters or reports.
+        No Yahoo account data is collected through this website.
+      </p>
+    </section>
+
+    <section>
+      <h2>Project status</h2>
+      <p>
+        Development and testing are in progress. Yahoo Fantasy Sports
+        API access is being requested.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    This website provides project information only.
+    Game Watching Prioritizer is an independent project and is not
+    affiliated with or endorsed by Yahoo or the NFL.
+  </footer>
+</body>
+</html>
